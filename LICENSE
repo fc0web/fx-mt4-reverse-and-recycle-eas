@@ -1,0 +1,50 @@
+MIT License
+
+Copyright (c) 2026 Nobuki Fujimoto
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+
+ADDITIONAL NOTICE (NOT A LICENSE TERM, JUST A PRACTICAL WARNING):
+
+This repository distributes two MetaTrader 4 Expert Advisors (EAs):
+
+1. RevWhole — mirror-copies positions of other EAs/accounts in the OPPOSITE
+   direction. If the monitored EA wins, RevWhole loses, and vice versa.
+
+2. RecirCycle — automated reversal-cycling EA with losing-side averaging-down
+   (Martingale) and winning-side pyramiding. Default config can result in
+   catastrophic losses, including total loss of the account balance, under
+   adverse market conditions. This is a mathematical property of Martingale
+   strategies, not a defect of this software.
+
+Past trading results, including backtest results, do not guarantee future
+results. FX trading involves leverage and may result in losses exceeding
+deposited funds. Use this software at your own risk, after thorough testing
+in a demo account, and only with capital you can afford to lose entirely.
+
+The author and contributors of this repository are not investment advisors
+and do not provide investment advice. This software is a free, open-source
+tool, distributed without affiliation to any broker or introducing-broker
+(IB) program.
+
+RecirCycle imports wininet.dll for LINE/email notification. Users must enable
+"Allow DLL imports" in MT4. LINE Notify is a third-party service whose
+specification may change; this EA does not track those changes automatically.

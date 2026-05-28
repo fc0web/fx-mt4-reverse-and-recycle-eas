@@ -1,0 +1,18 @@
+# MetaTrader compiled output
+*.ex4
+*.ex5
+
+# MetaEditor temporary
+*.bak
+*.log
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# UTF-8 conversion working copies (not for distribution)
+*.utf8.mq4
