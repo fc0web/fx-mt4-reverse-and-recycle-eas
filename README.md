@@ -5,6 +5,8 @@
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+> English edition: https://github.com/fc0web/fx-mt4-reverse-and-recycle-eas-en
+
 ---
 
 ## ⚠ 最初にお読みください — 投資リスクに関する重要事項
